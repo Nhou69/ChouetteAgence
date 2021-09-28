@@ -7,6 +7,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+li{
+    list-style-type: none;
+}
+
+footer ul{
+    padding-left: 0;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -822,7 +829,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1038,5 +1045,14 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .col-sm-6{
+        width: 270px;
+    }
+    .center-element{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
